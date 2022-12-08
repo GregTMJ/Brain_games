@@ -8,7 +8,7 @@
 #### Check your pip version with the following command:
 ```python -m pip --version```
 
-#### Make sure that pip is always up to date. If not, use the following:
+#### Make sure that pip is always up-to-date. If not, use the following:
 ```python -m pip install --upgrade pip```
 
 #### Next install poetry on your OS. (the link is below)

@@ -5,15 +5,15 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def run_game(module) -> None:
+def run_game(game) -> None:
     """
     Function that runs every possible game
     """
     player_name: str = welcome_user()
-    print(module.GAME_MESSAGE)
+    print(game.GAME_MESSAGE)
     number_of_tries = 0  # Count the number of tries
     while number_of_tries != 3:
-        question, correct_answer = module.game_utils()
+        question, correct_answer = game.game_utils()
         print(question)
         player_answer: str = prompt.string("Answer: ")
         number_of_tries += 1

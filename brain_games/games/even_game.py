@@ -10,16 +10,14 @@ MAX_INTEGER = 100
 
 def is_even(number: int) -> bool:
     """
-    :return True if number is even else False
+    :return: True if number is even else False
     """
-    if number % 2 == 0:
-        return True
-    return False
+    return number % 2 == 0
 
 
 def game_utils() -> tuple:
     """
-    :return question and correct answer
+    :return: question and correct answer
     """
     random_number: int = randint(MIN_INTEGER, MAX_INTEGER)
     question: str = f"Question: {random_number}"

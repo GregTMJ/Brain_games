@@ -11,7 +11,7 @@ MAX_INTEGER = 10
 
 def game_utils() -> tuple:
     """
-    :return question + correct answer
+    :return: question + correct answer
     """
     first_number: int = randint(MIN_INTEGER, MAX_INTEGER)
     second_number: int = randint(MIN_INTEGER, MAX_INTEGER)

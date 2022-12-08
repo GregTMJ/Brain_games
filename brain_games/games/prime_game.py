@@ -24,7 +24,7 @@ def is_prime(number: int) -> bool:
 
 def game_utils() -> tuple:
     """
-    :return question + correct_answer
+    :return: question + correct_answer
     """
     random_number: int = randint(MIN_INTEGER, MAX_INTEGER)
     question: str = f"Question: {random_number}"
