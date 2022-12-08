@@ -1,0 +1,18 @@
+.idea/
+.venv
+.vscode
+__pycache__
+dist/
+.coverage
+coverage.xml
+.pytest_cache/
+.vim
+.DS_Store
+
+# brain games
+brain-calc
+brain-even
+brain-games
+brain-gcd
+brain-prime
+brain-progression
