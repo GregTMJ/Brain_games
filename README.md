@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/8e96be4960efa964a898/maintainability)](https://codeclimate.com/github/GregTMJ/Brain_games/maintainability)
+
 ## Getting Started
 
 #### Clone the current repository via command:
