@@ -1,5 +1,5 @@
 """
-This module is called to start a certain game
+This module is our engine
 """
 import prompt
 from brain_games.cli import welcome_user
